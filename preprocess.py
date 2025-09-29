@@ -9,5 +9,5 @@ df.dropna(inplace=True)
 df['rain'] = df['rain'].apply(lambda x: 1 if x > 0 else 0)
 
 # Features and Target
-X = df[['temperature','humidity']]
+X = df[['temperature','humidity','pressure']]
 y = df['rain']
