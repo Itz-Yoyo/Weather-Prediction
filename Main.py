@@ -1,5 +1,5 @@
 import pandas as pd
-from model_training import model
+from Model_Training import model
 
 # PREDICTION
 tomorrow = pd.DataFrame([[30, 70, 1000]], columns=['temperature', 'humidity', 'pressure']) # Example: 30°C and 70% humidity and 1000 hPa

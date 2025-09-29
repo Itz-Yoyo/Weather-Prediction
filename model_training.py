@@ -1,4 +1,4 @@
-from preprocess import X, y
+from PreProcess import X, y
 
 # MODEL TRAINING
 from sklearn.model_selection import train_test_split
